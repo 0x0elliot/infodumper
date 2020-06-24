@@ -18,12 +18,17 @@ InfoDumper is a python script which you can use in physical penetration testing 
 <h1>Usage:</h1>
 
 First, Git clone this repository to your pendrive.
+
 ```
 cd {path to your pendrive} #Or just move it after git cloning it to your desktop
 git clone https://github.com/kiddocoder/infodumper
 ```
 
+
+
 Next, Once your physical pentesting begins, Run the script and it will automatically fetch the data it needs into your pendrive under a couple seconds saving you some time.
+
+
 
 ```
 sudo python3 {path_to_script}/infodumper.py
@@ -34,4 +39,4 @@ You will be asked two questions:
 1. Which user are you logged in as (Name of the user account)
 2. What is the name of your pendrive (You will be shown the drives connected to your device. You just need to select yours.)
 
-Coming soon: InfoDumping Remotely to another server/computer you have access to, Without needing any physical access.
+<b>Coming soon:</b> InfoDumping Remotely to another server/computer you have access to, Without needing any physical access.
