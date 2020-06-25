@@ -7,7 +7,7 @@ InfoDumper is a python script which you can use in physical penetration testing 
 2. Obtain the local and Global IP Addresses of the system (Along with ifconfig data)<br>
 3. Obtain the Hostname used by the system<br>
 4. Get the users on that system and their hashed passwords from /etc/passwd and /etc/shadow<br>
-<b>5. Have the output saved automatically into your pendrive so that you don't have to mess around much. </b>
+5. <b>Have the output saved automatically into your pendrive so that you don't have to mess around much. </b>
 
 <h1>Requirements:</h2>
 1. You should already have root/sudoer access to the system.<br>
