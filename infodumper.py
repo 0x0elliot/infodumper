@@ -4,8 +4,8 @@ import socket
 import subprocess
 import os
 
-if(os.getuid==1000):
-	print("Run this command as sudo dummy.")
+if(os.getuid!=1000):
+	print("~~~~~~~~~~~~~~~~~~~~~~~~~~\nRun this command as sudo dummy.\n~~~~~~~~~~~~~~~~~~~~~~~~~")
 	quit()
 else:
 	name=input("Enter the name of the user you are booting on: ")
