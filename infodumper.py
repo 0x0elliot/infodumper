@@ -1,7 +1,6 @@
 import requests
 import socket
 import subprocess
-import sys
 import os
 
 if(os.getuid==1000):
