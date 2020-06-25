@@ -41,5 +41,13 @@ You will be asked two questions:
 
 <h1>Who is InfoDumper for?</h1>
 Pentesters who have to physically pentest systems and networks. I have tried my best to make their job a little faster and a little more easier <3
+<br>
+<h1>Bugs Fixed:</h1>
+1. Has a better looking name for the txt files.<br>
+2. Fixed the FileNotFound error it showed :/ pretty silly ikr
+
+<br>
+<br>
+
 
 <b>Coming soon:</b> InfoDumping Remotely to another server/computer you have access to, Without needing any physical access.
