@@ -39,4 +39,7 @@ You will be asked two questions:
 1. Which user are you logged in as (Name of the user account)<br>
 2. What is the name of your pendrive (You will be shown the drives connected to your device. You just need to select yours.)<br>
 
+<h1>Who is InfoDumper for?</h1>
+Pentesters who have to physically pentest systems and networks. I have tried my best to make their job a little faster and a little more easier <3
+
 <b>Coming soon:</b> InfoDumping Remotely to another server/computer you have access to, Without needing any physical access.
