@@ -21,7 +21,7 @@ First, Git clone this repository to your pendrive.
 
 ```
 cd {path to your pendrive} #Or just move it after git cloning it to your desktop
-git clone https://github.com/kiddocoder/infodumper
+git clone https://github.com/0x0elliot/infodumper
 ```
 
 
