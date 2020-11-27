@@ -57,4 +57,4 @@ Pentesters who have to physically pentest systems and networks. I have tried my 
 <br>
 
 
-<b>Coming soon:</b> InfoDumping Remotely to another server/computer you have access to, Without needing any physical access.
+<b>Might Add:</b> InfoDumping Remotely to another server/computer you have access to, Without needing any physical access.
